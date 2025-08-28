@@ -103,5 +103,6 @@ I am a responsible, goal-oriented, and creative professional, always looking for
 ---
 
 ## 📫 Get in Touch
-- <a href="https://linkedin.com/in/arturo-narvaez-fontana">LinkedIn</a>  
+- Linkedin: <a href="https://linkedin.com/in/arturo-narvaez-fontana">LinkedIn</a>  
 - GitHub: <a href="https://github.com/anarvaezf">@anarvaezf</a>
+- Email: <a href="mailto:arturo.narvaezf@gmail.com">arturo.narvaezf@gmail.com</a> 
