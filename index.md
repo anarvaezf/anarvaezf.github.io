@@ -10,7 +10,7 @@ title: Arturo Narváez Fontana
     </td>
     <td style="border:0; vertical-align:middle; padding-left:20px;">
       <span style="font-size:16px;">
-        .NET by day, Flutter by night — sleep not included.
+        <i>.NET by day, Flutter by night — sleep not included.</i>
       </span>
     </td>
   </tr>
@@ -18,7 +18,7 @@ title: Arturo Narváez Fontana
 
 # 👋 About Me
 
-Full Stack .NET & Flutter Developer | Passionate about Azure | Leader of High-Performance Teams
+Full Stack .NET & Flutter Developer, Passionate about Azure, Leader of High-Performance Teams
 
 With over 13 years of experience, I specialize in developing scalable and efficient business solutions in **.NET**, **JavaScript**, **DevOps**, and **Flutter** for cross-platform mobile applications.
 
@@ -99,10 +99,6 @@ I am a responsible, goal-oriented, and creative professional, always looking for
 </ul>
 
 <p><a href="{{ '/blog' | relative_url }}">View all articles →</a></p>
-
-<p style="font-size:13px; color:#9aa0a6;">
-  <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-</p>
 
 ---
 
