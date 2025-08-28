@@ -3,15 +3,6 @@ layout: default
 title: Home
 ---
 
-<nav style="margin: 8px 0 16px; font-size:14px;">
-  <a href="#-about-me">About</a> ·
-  <a href="#%EF%B8%8F-certifications">Certifications</a> ·
-  <a href="#-tech-stack">Tech</a> ·
-  <a href="#-open-source--packages">Open Source</a> ·
-  <a href="#-latest-articles">Articles</a> ·
-  <a href="#-get-in-touch">Contact</a>
-</nav>
-
 # 👋 About Me
 
 **Arturo Narváez Fontana**  
