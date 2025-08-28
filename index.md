@@ -10,7 +10,7 @@ title: Arturo Narváez Fontana
     </td>
     <td style="border:0; vertical-align:middle; padding-left:20px;">
       <span style="font-size:16px;">
-        <i>.NET by day, Flutter by night — sleep not included.</i>
+        <i>Architect of elegant hacks</i>
       </span>
     </td>
   </tr>
