@@ -10,13 +10,15 @@ title: Arturo Narváez Fontana
     </td>
     <td style="border:0; vertical-align:middle; padding-left:20px;">
       <span style="font-size:16px;">
-        Full Stack .NET & Flutter Developer | Passionate about Azure | Leader of High-Performance Teams
+        .NET by day, Flutter by night — sleep not included.
       </span>
     </td>
   </tr>
 </table>
 
 # 👋 About Me
+
+Full Stack .NET & Flutter Developer | Passionate about Azure | Leader of High-Performance Teams
 
 With over 13 years of experience, I specialize in developing scalable and efficient business solutions in **.NET**, **JavaScript**, **DevOps**, and **Flutter** for cross-platform mobile applications.
 
