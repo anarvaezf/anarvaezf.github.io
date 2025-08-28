@@ -1,168 +1,79 @@
 ---
+
 layout: default
-title: "Publishing my first Flutter package: story_carousel"
-description: Instagram-like stories carousel for Flutter with auto-advance, gestures and progress indicators.
-tags: [flutter, packages, pubdev]
----
+title: "Story\_carousel: Instagram-like stories for Flutter"
+description: A simple package to add Instagram-style stories to your Flutter apps.
+tags: \[flutter, packages, pubdev]
+----------------------------------
 
-Instagram-like stories carousel for Flutter with auto-advance, gestures, and progress indicators.
-
-* Auto-play with per-item durations
-* Tap left/right to navigate, long-press to pause
-* Optional controller for imperative control
-* Minimal, predictable API
-  
-[https://pub.dev/packages/story_carousel](https://pub.dev/packages/story_carousel)
+If you’ve ever wanted to add **Instagram-style stories** to your Flutter app, you know it’s not something included out-of-the-box.
+That’s why I created **story\_carousel**, a lightweight package that brings a familiar stories experience to any Flutter project.
 
 ---
 
-## Install
+## Why I built it
 
- ```
- flutter pub add story_carousel
- ```
+While working on personal projects, I needed a **carousel of “stories”** that supported:
 
-Or
-
-```yaml
-dependencies:
-  story_carousel: ^0.1.0
-```
-
-> Flutter SDK >= 3.19.0, Dart >= 3.3.0.
-
----
-
-## Quick Start
-
-```dart
-import 'package:story_carousel/story_carousel.dart';
-import 'package:flutter/material.dart';
-
-class Demo extends StatelessWidget {
-  const Demo({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return StoryCarousel(
-      title: 'Demo Stories',
-      items: const [
-        // Provide any widgets you want to show as “stories”:
-        Image(
-          image: NetworkImage('https://picsum.photos/600/900?1'),
-          fit: BoxFit.cover,
-        ),
-        Center(
-          child: Text(
-            'Free text / any widget',
-            style: TextStyle(color: Colors.white, fontSize: 20),
-          ),
-        ),
-        Image(
-          image: NetworkImage('https://picsum.photos/600/900?2'),
-          fit: BoxFit.cover,
-        ),
-      ],
-      autoPlay: true,
-      loop: true,
-      durationPerItem: const Duration(seconds: 5),
-      onIndexChanged: (i) => debugPrint('index: $i'),
-      onClose: () => Navigator.of(context).maybePop(),
-    );
-  }
-}
-```
-
-**Gestures**
-
-* Tap **left** area → previous
-* Tap **right** area → next
-* **Long-press** → pause (release to resume)
-
----
-
-## Controller (optional)
-
-Use a controller to manipulate the carousel from outside (buttons, app logic, etc.):
-
-```dart
-final controller = StoryCarouselController();
-
-StoryCarousel(
-  title: 'With Controller',
-  items: const [
-    Center(child: Text('One', style: TextStyle(color: Colors.white))),
-    Center(child: Text('Two', style: TextStyle(color: Colors.white))),
-  ],
-  controller: controller,
-  autoPlay: true,
-);
-
-// Somewhere else in your UI:
-FilledButton(onPressed: controller.prev,   child: const Text('Prev'));
-FilledButton(onPressed: controller.pause,  child: const Text('Pause'));
-FilledButton(onPressed: controller.resume, child: const Text('Resume'));
-FilledButton(onPressed: controller.next,   child: const Text('Next'));
-```
-
-**Controller API**
-
-* `next()`, `prev()`, `goTo(int index)`
-* `pause()`, `resume()`
-* `index` / `isPaused` as `ValueNotifier`s you can listen to
-
----
-
-
-## Example App
-
-This repository includes a runnable example under `/example`.
-
-**Run it:**
-
-```bash
-cd example
-flutter pub get
-flutter run
-```
-
-The example shows:
-
-* Title + list of items (images + text)
-* Auto-play and loop
+* Automatic playback
+* Tap gestures to move forward/backward
 * Long-press to pause
-* External buttons using the controller
+* A progress indicator for each story
 
-**Example dependency (in `example/pubspec.yaml`):**
-
-```yaml
-dependencies:
-  story_carousel:
-    path: ../
-```
+I couldn’t find a simple and flexible solution, so I built one and published it on **pub.dev**.
 
 ---
 
-## Configuration & Options
+## When to use it
 
-* `title` *(String)*: Title at the top overlay (left side).
-* `items` *(List<Widget>)*: Story pages (any widgets).
-* `autoPlay` *(bool, default: true)*: Auto-advance items.
-* `loop` *(bool, default: false)*: Wrap from last → first.
-* `durationPerItem` *(Duration, default: 5s)*: Fallback duration.
-* `durations` *(List<Duration>?)*: Per-item durations (must match `items.length`).
-* `onIndexChanged` *(ValueChanged<int>?)*: Index callback.
-* `onClose` *(VoidCallback?)*: If provided, a **close** button is shown (top-left).
-* `progressBarHeight` *(double, default: 3.0)*: Segment height.
-* *(Optional for testing)* `pageAnimationDuration` *(Duration, default: 220ms)*.
+This widget is useful in apps that want to display content in quick, snackable formats, such as:
+
+* **Social apps** (stories, highlights, announcements)
+* **E-learning** (step-by-step guides or mini-lessons)
+* **News / media apps** (headlines, daily digests)
+* **Internal business tools** (onboarding flows, quick updates)
+
+Basically, anywhere you want users to consume content in a **visual, swipeable format**.
 
 ---
 
-## Contributing
+## Getting started
 
-PRs and issues are welcome. Please run:
+You can install it directly from pub.dev:
 
 ```bash
-flutter analyze
-flutter test
+flutter pub add story_carousel
 ```
+
+Example usage:
+
+```dart
+StoryCarousel(
+  title: 'Demo Stories',
+  items: const [
+    Image(image: NetworkImage('https://picsum.photos/600/900?1')),
+    Center(child: Text('Free text / any widget')),
+    Image(image: NetworkImage('https://picsum.photos/600/900?2')),
+  ],
+  autoPlay: true,
+  loop: true,
+);
+```
+
+That’s it — you now have stories in your Flutter app.
+
+---
+
+## Learn more
+
+For advanced usage, like controlling playback programmatically, customizing durations, or running the example app, check out:
+
+* 📦 Pub.dev: [story\_carousel](https://pub.dev/packages/story_carousel)
+* 💻 GitHub: [anarvaezf/flutter\_story\_carousel](https://github.com/anarvaezf/flutter_story_carousel)
+
+---
+
+## Final thoughts
+
+This is my **first Flutter package published on pub.dev**, and I’m excited to keep improving it.
+If you try it, I’d love to hear your feedback — PRs and issues are always welcome!
