@@ -3,6 +3,15 @@ layout: default
 title: Home
 ---
 
+<nav style="margin: 8px 0 16px; font-size:14px;">
+  <a href="#-about-me">About</a> ·
+  <a href="#%EF%B8%8F-certifications">Certifications</a> ·
+  <a href="#-tech-stack">Tech</a> ·
+  <a href="#-open-source--packages">Open Source</a> ·
+  <a href="#-latest-articles">Articles</a> ·
+  <a href="#-get-in-touch">Contact</a>
+</nav>
+
 # 👋 About Me
 
 **Arturo Narváez Fontana**  
@@ -15,54 +24,78 @@ I also work with **TypeScript, Node.js, Azure, and SQL Server**, always aiming f
 ## ✔️ Certifications
 - <a href="https://www.credly.com/badges/036b9223-a0eb-4421-aaaa-082becda6ff9/linked_in_profile">Professional Scrum Master (PSM)</a> – Scrum.org (certified @ Improving)
 
+---
+
 ## 🧰 Tech Stack
 
-<div class="tech-logos">
-  <img src="/assets/logos/dotnetcore-original.svg" alt=".NET" title=".NET" loading="lazy" />
-  <img src="/assets/logos/csharp-original.svg" alt="C#" title="C#" loading="lazy" />
-  <img src="/assets/logos/react-original.svg" alt="React" title="React" loading="lazy" />
-  <img src="/assets/logos/typescript-original.svg" alt="TypeScript" title="TypeScript" loading="lazy" />
-  <img src="/assets/logos/flutter-original.svg" alt="Flutter" title="Flutter" loading="lazy" />
-  <img src="/assets/logos/nodejs.svg" alt="Node.js" title="Node.js" loading="lazy" />
-  <img src="/assets/logos/azure-original.svg" alt="Azure" title="Azure" loading="lazy" />
-  <img src="/assets/logos/microsoftsqlserver-plain.svg" alt="SQL Server" title="SQL Server" loading="lazy" />
-  <img src="/assets/logos/docker-original.svg" alt="Docker" title="Docker" loading="lazy" />
-  <img src="/assets/logos/firebase.svg" alt="Firebase" title="Firebase" loading="lazy" />
-</div>
+<table style="border-collapse: collapse; border: 0; width: 100%;">
+  <tr>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/dotnetcore-original.svg" alt=".NET" title=".NET" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">.NET</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/react-original.svg" alt="React" title="React" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">React</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/typescript-original.svg" alt="TypeScript" title="TypeScript" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">TypeScript</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/flutter-original.svg" alt="Flutter" title="Flutter" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">Flutter</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/nodejs.svg" alt="Node.js" title="Node.js" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">Node.js</div>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/azure-original.svg" alt="Azure" title="Azure" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">Azure</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/microsoftsqlserver-plain.svg" alt="SQL Server" title="SQL Server" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">SQL Server</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/docker-original.svg" alt="Docker" title="Docker" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">Docker</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/firebase.svg" alt="Firebase" title="Firebase" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">Firebase</div>
+    </td>
+    <td style="border: 0; text-align: center; padding: 8px; width: 90px;">
+      <img src="/assets/vscode.svg" alt="VS Code" title="VS Code" style="width:48px;" /><br/>
+      <div style="font-size:12px; margin-top:4px; color:#ccc;">VS Code</div>
+    </td>
+  </tr>
+</table>
 
-<p class="tech-inline">.NET · C# · React · TypeScript · Flutter · Node.js · Azure · SQL Server · Docker · Firebase</p>
+---
 
-<style>
-  .tech-logos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px 16px;
-    align-items: center;
-    margin: 10px 0 4px;
-  }
-  .tech-logos img {
-    height: 36px;
-    opacity: 0.9;
-    filter: grayscale(100%);
-    transition: all .2s ease;
-  }
-  .tech-logos img:hover {
-    filter: none;
-    opacity: 1;
-    transform: translateY(-1px);
-  }
-  .tech-inline {
-    color: #9aa0a6; /* tono discreto bajo el tema Hacker */
-    margin: 0 0 8px;
-  }
-  @media (prefers-color-scheme: dark) {
-    .tech-inline { color: #b6beca; }
-  }
-</style>
+## 📝 Latest Articles
 
-## 🚀 Goals
-- Deliver enterprise-grade projects with .NET, React, Azure & SQL Server  
-- Build clean, maintainable mobile apps with Flutter  
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small> — {{ post.date | date: "%b %d, %Y" }}</small><br/>
+      {% if post.excerpt %}
+        <span style="color:#9aa0a6;">{{ post.excerpt | strip_html | truncate: 120 }}</span>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<p><a href="{{ '/blog' | relative_url }}">View all articles →</a></p>
+
+<p style="font-size:13px; color:#9aa0a6;">
+  <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+</p>
 
 ---
 
