@@ -6,9 +6,13 @@ title: Home
 # 👋 About Me
 
 **Arturo Narváez Fontana**  
-Full Stack Developer focused on building enterprise solutions with **.NET and React**, and mobile applications with **Flutter**.  
+Full Stack .NET & Flutter Developer | Passionate about Azure | Leader of High-Performance Teams
 
-I also work with **TypeScript, Node.js, Azure, and SQL Server**, always aiming for clean and maintainable code.  
+With over 13 years of experience, I specialize in developing scalable and efficient business solutions in **.NET**, **JavaScript**, **DevOps**, and **Flutter** for cross-platform mobile applications.
+
+My experience includes working on healthcare IT projects, where I ensured compliance with HIPAA standards by developing secure systems for managing sensitive data, such as orders and distribution in the pharmaceutical sector.
+
+I am a responsible, goal-oriented, and creative professional, always looking for challenging opportunities with industry-leading companies. Alongside my expertise in enterprise-level full stack solutions, I have delivered mobile applications using Flutter, strengthening my ability to design end-to-end solutions across platforms.
 
 ---
 
