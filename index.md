@@ -3,18 +3,10 @@ layout: default
 title: Arturo Narváez Fontana
 ---
 
-<table style="border:0; width:100%;">
-  <tr>
-    <td style="border:0; width:180px; vertical-align:top; text-align:center;">
-      <img src="/assets/perfil.png" alt="Arturo Narváez Fontana" width="160" style="border-radius:50%;" />
-    </td>
-    <td style="border:0; vertical-align:middle; padding-left:20px;">
-      <span style="font-size:16px;">
-        <i>Architect of elegant hacks</i>
-      </span>
-    </td>
-  </tr>
-</table>
+<img src="/assets/perfil.png" alt="Arturo Narváez Fontana" width="160" style="border-radius:50%;" />
+ <p style="font-size:16px;">
+    <i>Architect of elegant hacks</i>
+</p>
 
 # 👋 About Me
 
