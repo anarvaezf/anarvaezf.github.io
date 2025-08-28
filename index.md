@@ -3,10 +3,12 @@ layout: default
 title: Arturo Narváez Fontana
 ---
 
+<center>
 <img src="/assets/perfil.png" alt="Arturo Narváez Fontana" width="160" style="border-radius:50%;" />
  <p style="font-size:16px;">
     <i>Architect of elegant hacks</i>
 </p>
+</center>
 
 # 👋 About Me
 
