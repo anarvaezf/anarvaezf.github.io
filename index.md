@@ -3,54 +3,66 @@ layout: default
 title: Home
 ---
 
-# 👋 Hi, I'm Arturo Narváez Fontana
+# 👋 About Me
 
-**Full Stack Developer** with enterprise experience in **.NET**, **React**, **Azure**, **SQL Server**, and a growing passion for **Flutter**.  
-Currently exploring **Unity** for game and interactive experiences.
+**Arturo Narváez Fontana**  
+Full Stack Developer focused on building enterprise solutions with **.NET and React**, and mobile applications with **Flutter**.  
 
----
-
-## 🧩 Open Source Contributions
-
-<div align="left">
-  <table>
-    <tr>
-      <td width="100%" style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px;">
-        <h3>📦 <a href="https://pub.dev/packages/story_carousel">story_carousel</a></h3>
-        <p>Instagram-like stories carousel widget for Flutter.</p>
-        <ul>
-          <li>Auto-play with configurable durations</li>
-          <li>Tap left/right to navigate, long-press to pause</li>
-          <li>Optional controller (next, prev, pause, resume)</li>
-          <li>Progress bar per story</li>
-          <li>Example app included in <code>/example</code></li>
-        </ul>
-        <p><strong>Links:</strong>
-          <a href="https://pub.dev/packages/story_carousel">pub.dev</a> ·
-          <a href="https://github.com/anarvaezf/flutter_story_carousel">GitHub</a>
-        </p>
-        <pre><code>flutter pub add story_carousel</code></pre>
-      </td>
-    </tr>
-  </table>
-</div>
+I also work with **TypeScript, Node.js, Azure, and SQL Server**, always aiming for clean and maintainable code.  
 
 ---
 
 ## ✔️ Certifications
 - <a href="https://www.credly.com/badges/036b9223-a0eb-4421-aaaa-082becda6ff9/linked_in_profile">Professional Scrum Master (PSM)</a> – Scrum.org (certified @ Improving)
 
----
-
 ## 🧰 Tech Stack
-.NET · C# · React · TypeScript · Flutter · Node.js · Azure · SQL Server · Docker · Firebase · Tailwind · Unity
 
----
+<div class="tech-logos">
+  <img src="/assets/logos/dotnetcore-original.svg" alt=".NET" title=".NET" loading="lazy" />
+  <img src="/assets/logos/csharp-original.svg" alt="C#" title="C#" loading="lazy" />
+  <img src="/assets/logos/react-original.svg" alt="React" title="React" loading="lazy" />
+  <img src="/assets/logos/typescript-original.svg" alt="TypeScript" title="TypeScript" loading="lazy" />
+  <img src="/assets/logos/flutter-original.svg" alt="Flutter" title="Flutter" loading="lazy" />
+  <img src="/assets/logos/nodejs.svg" alt="Node.js" title="Node.js" loading="lazy" />
+  <img src="/assets/logos/azure-original.svg" alt="Azure" title="Azure" loading="lazy" />
+  <img src="/assets/logos/microsoftsqlserver-plain.svg" alt="SQL Server" title="SQL Server" loading="lazy" />
+  <img src="/assets/logos/docker-original.svg" alt="Docker" title="Docker" loading="lazy" />
+  <img src="/assets/logos/firebase.svg" alt="Firebase" title="Firebase" loading="lazy" />
+</div>
+
+<p class="tech-inline">.NET · C# · React · TypeScript · Flutter · Node.js · Azure · SQL Server · Docker · Firebase</p>
+
+<style>
+  .tech-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 16px;
+    align-items: center;
+    margin: 10px 0 4px;
+  }
+  .tech-logos img {
+    height: 36px;
+    opacity: 0.9;
+    filter: grayscale(100%);
+    transition: all .2s ease;
+  }
+  .tech-logos img:hover {
+    filter: none;
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+  .tech-inline {
+    color: #9aa0a6; /* tono discreto bajo el tema Hacker */
+    margin: 0 0 8px;
+  }
+  @media (prefers-color-scheme: dark) {
+    .tech-inline { color: #b6beca; }
+  }
+</style>
 
 ## 🚀 Goals
 - Deliver enterprise-grade projects with .NET, React, Azure & SQL Server  
 - Build clean, maintainable mobile apps with Flutter  
-- Experiment with Unity for future interactive projects
 
 ---
 
