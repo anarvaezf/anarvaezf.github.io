@@ -2,9 +2,8 @@
 layout: default
 title: Blog
 permalink: /blog/
+description: "All Articles"
 ---
-
-# 📝 All Articles
 
 <ul>
   {% for post in site.posts %}
