@@ -4,7 +4,7 @@ title: Arturo Narváez Fontana
 ---
 
 # 👋 About Me
-<img src="/assets/profile.jpg" alt="Arturo Narváez Fontana" width="180" style="border-radius:50%; margin: 12px 0;" /> 
+<img src="/assets/perfil.png" alt="Arturo Narváez Fontana" width="180" style="border-radius:50%; margin: 12px 0;" /> 
 Full Stack .NET & Flutter Developer | Passionate about Azure | Leader of High-Performance Teams
 
 With over 13 years of experience, I specialize in developing scalable and efficient business solutions in **.NET**, **JavaScript**, **DevOps**, and **Flutter** for cross-platform mobile applications.
