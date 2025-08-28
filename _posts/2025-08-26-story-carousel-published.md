@@ -1,10 +1,9 @@
 ---
-
 layout: default
-title: "Story\_carousel: Instagram-like stories for Flutter"
-description: A simple package to add Instagram-style stories to your Flutter apps.
-tags: \[flutter, packages, pubdev]
-----------------------------------
+title: "story_carousel: Instagram-like stories for Flutter"
+description: "A simple package to add Instagram-style stories to your Flutter apps."
+tags: [flutter, packages, pubdev]
+---
 
 If you’ve ever wanted to add **Instagram-style stories** to your Flutter app, you know it’s not something included out-of-the-box.
 That’s why I created **story\_carousel**, a lightweight package that brings a familiar stories experience to any Flutter project.
