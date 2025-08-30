@@ -1,0 +1,264 @@
+baseURL: "https://anarvaezf.dev/"
+title: "Arturo Narváez Fontana"
+languageCode: "en-us"
+paginate: 10
+enableRobotsTXT: true
+
+# Traer el tema vía Hugo Modules
+module:
+    imports:
+        - path: "github.com/gurusabarish/hugo-profile"
+
+# Navbar (usa el sistema de menús de Hugo)
+Menus:
+  main:
+    - identifier: about
+      name: About
+      title: About me
+      url: "#about"
+      weight: 1
+
+    - identifier: hireme
+      name: Freelance
+      title: Freelance availability
+      url: "#experience"
+      weight: 3
+
+    - identifier: education
+      name: Education
+      title: Education & Certifications
+      url: "#education"
+      weight: 4
+
+    - identifier: achievements
+      name: Highlights
+      title: Achievements & Highlights
+      url: "#achievements"
+      weight: 5
+
+    - identifier: projects
+      name: Projects
+      title: Projects, Contributions
+      url: "#projects"
+      weight: 6
+
+    - identifier: contact
+      name: Contact
+      title: Contact
+      url: "#contact"
+      weight: 7
+
+params:
+    # (Opcional) Cambios globales de UI
+    favicon: "/favicon.ico"
+    navbar:
+        align: ms-auto
+        brandName: ""
+        disableSearch: true
+        stickyNavBar:
+            enable: true
+            showOnScrollUp: true
+        enableSeparator: false
+        menus:
+            disableAbout: true
+            disableExperience: true
+            disableEducation: true
+            disableProjects: true
+            disableAchievements: true
+            disableContact: true
+
+    theme:
+        disableThemeToggle: false
+        defaultTheme: "auto"
+        search:
+        enable: false
+
+    # Redes del footer (también puedes usar hero.socialLinks más abajo)
+    footer:
+        socialNetworks:
+            github: "https://github.com/anarvaezf"
+            linkedin: "https://linkedin.com/in/arturo-narvaez-fontana"
+
+    # ====== Secciones del tema (del wiki) ======
+    hero:
+        enable: true
+        intro: "Hi, my name is"
+        title: "Arturo Narváez"
+        subtitle: ".NET & Flutter Developer"
+        content: "Creating Reliable and Scalable Applications. I turn complex challenges into elegant, efficient, and well-tested code."
+        image: "/assets/perfil1.png"
+        roundImage: false
+        button:
+          enable: true
+          name: "Resume"
+          url: "/resume.pdf"
+          download: true
+          newPage: false
+        socialLinks:
+          fontAwesomeIcons:
+            - icon: fab fa-github
+              url: https://github.com/anarvaezf
+            - icon: fab fa-linkedin
+              url: https://www.linkedin.com/in/arturo-narvaez-fontana/
+
+    # ABOUT
+    about:
+      enable: true
+      title: "About Me"
+      id: "about"
+      image: "/assets/perfil2.png"
+      content: |-
+        I am a Full Stack .NET and Flutter Developer with more than 13 years of experience building scalable business solutions across web, mobile, and cloud platforms.
+        My expertise spans .NET, JavaScript, DevOps practices, and Flutter for cross-platform applications.
+       
+        I have led high-performance teams and delivered enterprise systems with a strong focus on security and compliance — including healthcare IT projects aligned with HIPAA standards and pharmaceutical distribution platforms handling sensitive data.
+        Beyond large-scale enterprise solutions, I also design and deliver mobile applications with Flutter, allowing me to provide complete end-to-end solutions from backend to mobile frontends.
+        
+        I am a responsible and goal-oriented professional, driven to solve complex problems with creativity and precision.
+
+      skills:
+        enable: true
+        title: ''
+        items:
+          - ".NET (C#)"
+          - "Flutter (mobile)"
+          - "Azure"
+          - "JavaScript/TypeScript"
+          - "React"
+          - "MUI, Bootstrap, Tailwind"
+          - "NestJS"
+          - "Express"
+          - "Google Apps Script"
+          - "Databricks"
+          - "Firebase"
+          - "GitHub Actions"
+          - "CI/CD"
+          - "SQL Server"
+          - "Mongodb"
+          - "PostgreSQL"
+
+    experience:
+      enable: true
+      id: "experience"
+      title: "Freelance"
+      items:
+        - job: "Freelance Full-Stack Developer"
+          company: "Workana"
+          companyUrl: "https://www.workana.com/freelancer/5d3a84fce79b5de2e68874ee24a1f05c"
+          date: "Available now"
+          content: "I help companies ship reliable web and mobile features with .NET, React, Flutter, NestJS, and Azure. Fixed-price or hourly. Spanish/English."
+          badges: [".NET", "React", "Flutter", "NestJS", "Azure"]
+          featuredLink:
+            enable: true
+            name: "Open Workana profile"
+            url: "https://www.workana.com/freelancer/5d3a84fce79b5de2e68874ee24a1f05c"
+
+        - job: "Freelance Full-Stack Developer"
+          company: "Fiverr"
+          companyUrl: "https://es.fiverr.com/s/e6AV7j3"
+          date: "Available now"
+          content: "Rapid MVPs, API integrations, and mobile apps. Clean code, CI/CD, and testing by default."
+          badges: ["Mobile", "APIs", "CI/CD", "Testing"]
+          featuredLink:
+            enable: true
+            name: "Open Fiverr gigs"
+            url: "https://es.fiverr.com/s/e6AV7j3"
+
+        - job: "Freelance Full-Stack Developer"
+          company: "Upwork"
+          companyUrl: "https://www.upwork.com/"
+          date: "Available now"
+          content: "End-to-end delivery: backend, web, and Flutter mobile. Enterprise-grade habits for small teams."
+          badges: ["Backend", "Web", "Mobile"]
+          featuredLink:
+            enable: true
+            name: "Open Upwork profile"
+            url: "https://www.upwork.com/freelancers/~0193f8fb743a66cb27?mp_source=share"
+
+#        - job: "Freelance Full-Stack Developer"
+#          company: "Guru"
+#          companyUrl: "https://www.guru.com/"
+#          date: "Available now"
+#          content: "Scoped milestones, transparent estimates, and steady communication."
+#          badges: ["Milestones", "Estimates", "Communication"]
+#          featuredLink:
+#            enable: true
+#            name: "Open Guru profile"
+#            url: "https://www.guru.com/"
+            
+    education:
+      enable: true
+      id: "education"
+      title: "Education & Certifications"
+      items:
+        - title: "Bachelor of Computer Science"
+          school:
+            name: "Universidad Autonoma de Yucatan"
+            url: "https://www.matematicas.uady.mx/"
+          date: "2011"
+          content: "Foundations in software engineering and systems design."
+
+        - title: "Professional Scrum Developer™ I (PSD I)"
+          school:
+            name: "Scrum.org"
+            url: "https://www.scrum.org/certificates/1193518"
+          date: "2025"
+          content: "Practical Scrum experience: sprint planning, backlog refinement, and delivering high-quality increments as a developer."
+          featuredLink:
+            enable: true
+            name: "Professional Scrum Developer"
+            url: "https://www.credly.com/badges/036b9223-a0eb-4421-aaaa-082becda6ff9/linked_in_profile"
+
+    projects:
+      enable: true
+      id: "projects"
+      items:
+        - title: "Flutter Story Carousel"
+          content: "A simple, extensible story carousel for Flutter apps."
+          image: /assets/projects/carousel.png
+          badges: ["Flutter", "Dart", "UI"]
+          links:
+            - name: "GitHub"
+              url: "https://github.com/anarvaezf/flutter_story_carousel"
+
+    achievements:
+      enable: true
+      id: "achievements"
+      title: "Highlights"
+      items:
+        - title: "Open-source Flutter Packages"
+          content: "Publisher of Flutter widgets on pub.dev, including flutter_story_carousel."
+          url: "https://pub.dev/publishers/anarvaezf.dev/packages"
+          badges: ["Flutter", "pub.dev"]
+
+        - title: "HIPAA-aligned healthcare modules delivered"
+          content: "Implemented secure features for handling sensitive healthcare data in enterprise environments."
+          url: ""
+          badges: ["Security", "Compliance", "Healthcare IT"]
+
+        - title: "Professional Scrum Developer™ I (PSD I)"
+          content: "Certified by Scrum.org, proving practical agile delivery and developer practices."
+          url: "https://www.credly.com/badges/036b9223-a0eb-4421-aaaa-082becda6ff9/linked_in_profile"
+          badges: ["Scrum", "Agile"]
+
+        - title: "13+ years shipping production software"
+          content: "From enterprise backends to mobile apps, with CI/CD and testing as a default practice."
+          url: ""
+          badges: [".NET", "React", "Flutter", "CI/CD"]
+
+    # CONTACT
+    contact:
+      enable: true
+      title: "Contact"
+      id: "contact"
+      content: |- 
+                Looking for a reliable full-stack developer?
+                I can help you ship production-ready features in .NET, React, Flutter, and NestJS. 
+                
+                Let's talk.
+      email: "arturo.narvaezf@gmail.com"
+      links:
+        - label: "GitHub"
+          url: "https://github.com/anarvaezf"
+        - label: "LinkedIn"
+          url: "https://www.linkedin.com/in/arturo-narvaez-fontana/"
