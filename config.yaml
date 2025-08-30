@@ -1,0 +1,86 @@
+baseURL: "https://anarvaezf.dev/"
+title: "Arturo Narváez Fontana"
+languageCode: "en-us"
+paginate: 10
+enableRobotsTXT: true
+
+# Traer el tema vía Hugo Modules
+module:
+  imports:
+    - path: "github.com/gurusabarish/hugo-profile"
+
+# Navbar (usa el sistema de menús de Hugo)
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /posts/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+
+params:
+  # (Opcional) Cambios globales de UI
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "auto"
+
+  # Redes del footer (también puedes usar hero.socialLinks más abajo)
+  footer:
+    socialNetworks:
+      github: "https://github.com/anarvaezf"
+      linkedin: "https://linkedin.com/in/arturo-narvaez-fontana"
+
+  # ====== Secciones del tema (del wiki) ======
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Arturo."
+    subtitle: "I build clean mobile & enterprise apps"
+    content: "Full Stack .NET & Flutter Developer. I ship scalable business apps and mobile experiences."
+    image: "/images/profile.jpg"
+    button:
+      enable: true
+      name: "View my work"
+      url: "/#projects"
+      download: false   # <- el tema espera booleanos aquí
+      newPage: false    # <- opcional, también booleano
+      outline: false    # <- opcional
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: "fab fa-github"
+          url: "https://github.com/anarvaezf"
+        - icon: "fab fa-linkedin"
+          url: "https://linkedin.com/in/arturo-narvaez-fontana"
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/profile.jpg"
+    content: |
+      Full Stack .NET & Flutter Developer | Azure | Clean code
+
+      - .NET · C# · React · TypeScript · Flutter · Node.js · Azure · SQL Server · Docker · Firebase
+      - PSM – Scrum.org (certified @ Improving)
+
+  projects:
+    enable: true
+    items:
+      - title: "story_carousel"
+        content: "Instagram-like stories for Flutter (auto-play, gestures, progress bars)."
+        image: "/images/projects/story_carousel.png"   # opcional
+        featured:
+          name: "pub.dev"
+          link: "https://pub.dev/packages/story_carousel"
+        links:
+          - icon: "fab fa-github"
+            url: "https://github.com/anarvaezf/flutter_story_carousel"
+
+  # Si luego quieres Achievements, Experience, Education, Contact: te los agrego
